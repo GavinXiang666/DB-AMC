@@ -92,6 +92,7 @@ def auto_clip_video():
         os.remove(path=input_video)
     
 def stop_current_process():  
+    print("")
     print("stop current process")
     global current_process  
     if current_process:  
@@ -104,7 +105,7 @@ if __name__ == "__main__":
 
     English_Button_Text = ['Camera Setting','Openpose Test','Record Pose','Auto Clip Video','Bone Analysis','Stop Current Process']
     Chinese_Button_Text = ['摄像头设置','Openpose测试','录入姿态','视频自动切片','骨骼分析','停止当前进程']
-
+    
     mode = "Chinese"
     if mode == "Chinese":
         language_text = Chinese_Button_Text

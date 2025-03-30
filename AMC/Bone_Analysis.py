@@ -229,6 +229,7 @@ class Armature:
             self.pose[i][0] = self.pose[i][0] + x_move
             self.pose[i][1] = self.pose[i][1] + y_move
             self.pose[i][2] = self.pose[i][2] + z_move
+            self
         """
         旋转身体部分
         """
@@ -380,6 +381,8 @@ if __name__ == "__main__":
 
     target_pose_plot_list =  [list(item) for item in next_pose_info_list[0]]
     
+
+
     """
     合成下一帧骨骼动作3d信息
     """
@@ -415,3 +418,5 @@ if __name__ == "__main__":
             current_ax_3d.draw_scatter([plot],color='green')
 
     plt.show(block=True)
+
+    
