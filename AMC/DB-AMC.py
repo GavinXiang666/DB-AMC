@@ -116,7 +116,7 @@ if __name__ == "__main__":
     tk_window = tk.Tk()  
     tk_window.title("Dream Busters! Automatic Motion Capture")  
     tk_window.geometry('450x600')
-
+    
     original_image = Image.open("logo/logo_white.png")
     width, height = original_image.size  
     new_width = int(width * 0.5)

@@ -370,7 +370,7 @@ if __name__ == "__main__":
     left_image = cv2.imread("AMC/output/image/image_left.jpg")
     right_image = cv2.imread("AMC/output/image/image_right.jpg")
     camera_image = [front_image,left_image,right_image]
-
+    
     next_pose_info_list = []
     for image in camera_image:
         #Yolov5+Openpose检测
