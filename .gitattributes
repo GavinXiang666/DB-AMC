@@ -1,1 +1,0 @@
-AMC/model/yolov7-w6-pose.pt filter=lfs diff=lfs merge=lfs -text
